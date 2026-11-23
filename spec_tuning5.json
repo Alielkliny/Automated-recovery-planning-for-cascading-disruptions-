@@ -1,0 +1,60 @@
+{
+ "methods": [
+  [
+   "detmpc@lookahead=240,ahead=119",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=240,ahead=147",
+   "detmpc"
+  ],
+  [
+   "saampc@sigma=0.15,ahead=119",
+   "saampc"
+  ],
+  [
+   "saampc@sigma=0.15,ahead=147",
+   "saampc"
+  ]
+ ],
+ "cfg": {
+  "detmpc@lookahead=240,ahead=119": {
+   "lookahead": 240,
+   "ahead": 119
+  },
+  "detmpc@lookahead=240,ahead=147": {
+   "lookahead": 240,
+   "ahead": 147
+  },
+  "saampc@sigma=0.15,ahead=119": {
+   "sigma": 0.15,
+   "ahead": 119
+  },
+  "saampc@sigma=0.15,ahead=147": {
+   "sigma": 0.15,
+   "ahead": 147
+  }
+ },
+ "grid": {
+  "detmpc": [
+   {
+    "lookahead": 240,
+    "ahead": 119
+   },
+   {
+    "lookahead": 240,
+    "ahead": 147
+   }
+  ],
+  "saampc": [
+   {
+    "sigma": 0.15,
+    "ahead": 119
+   },
+   {
+    "sigma": 0.15,
+    "ahead": 147
+   }
+  ]
+ }
+}

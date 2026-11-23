@@ -1,0 +1,152 @@
+{
+ "methods": [
+  [
+   "buffer@buffer_days=7",
+   "buffer"
+  ],
+  [
+   "saaplan@hazard=0.25",
+   "saaplan"
+  ],
+  [
+   "detmpc@lookahead=240,ahead=240,late_w=1.0",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=240,ahead=210,late_w=0.5",
+   "detmpc"
+  ],
+  [
+   "saampc@sigma=0.15,ahead=147,late_w=1.0",
+   "saampc"
+  ],
+  [
+   "saampc@sigma=0.15,ahead=119,late_w=0.5",
+   "saampc"
+  ],
+  [
+   "ablation@hazard=1.0,ahead=91,late_w=1.0",
+   "ablation"
+  ],
+  [
+   "ablation@hazard=1.0,ahead=63,late_w=0.5",
+   "ablation"
+  ],
+  [
+   "carp@hazard=0.5,ahead=91,late_w=1.0",
+   "carp"
+  ],
+  [
+   "carp@hazard=0.5,ahead=63,late_w=0.5",
+   "carp"
+  ]
+ ],
+ "cfg": {
+  "buffer@buffer_days=7": {
+   "buffer_days": 7
+  },
+  "saaplan@hazard=0.25": {
+   "hazard": 0.25
+  },
+  "detmpc@lookahead=240,ahead=240,late_w=1.0": {
+   "lookahead": 240,
+   "ahead": 240,
+   "late_w": 1.0
+  },
+  "detmpc@lookahead=240,ahead=210,late_w=0.5": {
+   "lookahead": 240,
+   "ahead": 210,
+   "late_w": 0.5
+  },
+  "saampc@sigma=0.15,ahead=147,late_w=1.0": {
+   "sigma": 0.15,
+   "ahead": 147,
+   "late_w": 1.0
+  },
+  "saampc@sigma=0.15,ahead=119,late_w=0.5": {
+   "sigma": 0.15,
+   "ahead": 119,
+   "late_w": 0.5
+  },
+  "ablation@hazard=1.0,ahead=91,late_w=1.0": {
+   "hazard": 1.0,
+   "ahead": 91,
+   "late_w": 1.0
+  },
+  "ablation@hazard=1.0,ahead=63,late_w=0.5": {
+   "hazard": 1.0,
+   "ahead": 63,
+   "late_w": 0.5
+  },
+  "carp@hazard=0.5,ahead=91,late_w=1.0": {
+   "hazard": 0.5,
+   "ahead": 91,
+   "late_w": 1.0
+  },
+  "carp@hazard=0.5,ahead=63,late_w=0.5": {
+   "hazard": 0.5,
+   "ahead": 63,
+   "late_w": 0.5
+  }
+ },
+ "grid": {
+  "buffer": [
+   {
+    "buffer_days": 7
+   }
+  ],
+  "saaplan": [
+   {
+    "hazard": 0.25
+   }
+  ],
+  "detmpc": [
+   {
+    "lookahead": 240,
+    "ahead": 240,
+    "late_w": 1.0
+   },
+   {
+    "lookahead": 240,
+    "ahead": 210,
+    "late_w": 0.5
+   }
+  ],
+  "saampc": [
+   {
+    "sigma": 0.15,
+    "ahead": 147,
+    "late_w": 1.0
+   },
+   {
+    "sigma": 0.15,
+    "ahead": 119,
+    "late_w": 0.5
+   }
+  ],
+  "ablation": [
+   {
+    "hazard": 1.0,
+    "ahead": 91,
+    "late_w": 1.0
+   },
+   {
+    "hazard": 1.0,
+    "ahead": 63,
+    "late_w": 0.5
+   }
+  ],
+  "carp": [
+   {
+    "hazard": 0.5,
+    "ahead": 91,
+    "late_w": 1.0
+   },
+   {
+    "hazard": 0.5,
+    "ahead": 63,
+    "late_w": 0.5
+   }
+  ]
+ }
+}

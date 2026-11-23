@@ -1,0 +1,266 @@
+{
+ "methods": [
+  "naive",
+  [
+   "practice@window=14",
+   "practice"
+  ],
+  [
+   "practice@window=28",
+   "practice"
+  ],
+  [
+   "practice@window=56",
+   "practice"
+  ],
+  [
+   "buffer@buffer_days=14",
+   "buffer"
+  ],
+  [
+   "buffer@buffer_days=28",
+   "buffer"
+  ],
+  [
+   "buffer@buffer_days=42",
+   "buffer"
+  ],
+  [
+   "float@margin=0",
+   "float"
+  ],
+  [
+   "float@margin=7",
+   "float"
+  ],
+  [
+   "float@margin=14",
+   "float"
+  ],
+  [
+   "saaplan@hazard=0.5",
+   "saaplan"
+  ],
+  [
+   "saaplan@hazard=1.0",
+   "saaplan"
+  ],
+  [
+   "saaplan@hazard=2.0",
+   "saaplan"
+  ],
+  [
+   "detmpc@lookahead=120",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=240",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=360",
+   "detmpc"
+  ],
+  [
+   "saampc@sigma=0.15",
+   "saampc"
+  ],
+  [
+   "saampc@sigma=0.3",
+   "saampc"
+  ],
+  [
+   "saampc@sigma=0.5",
+   "saampc"
+  ],
+  [
+   "ablation@hazard=0.0",
+   "ablation"
+  ],
+  [
+   "ablation@hazard=0.5",
+   "ablation"
+  ],
+  [
+   "ablation@hazard=1.0",
+   "ablation"
+  ],
+  [
+   "carp@hazard=0.0",
+   "carp"
+  ],
+  [
+   "carp@hazard=0.5",
+   "carp"
+  ],
+  [
+   "carp@hazard=1.0",
+   "carp"
+  ]
+ ],
+ "cfg": {
+  "practice@window=14": {
+   "window": 14
+  },
+  "practice@window=28": {
+   "window": 28
+  },
+  "practice@window=56": {
+   "window": 56
+  },
+  "buffer@buffer_days=14": {
+   "buffer_days": 14
+  },
+  "buffer@buffer_days=28": {
+   "buffer_days": 28
+  },
+  "buffer@buffer_days=42": {
+   "buffer_days": 42
+  },
+  "float@margin=0": {
+   "margin": 0
+  },
+  "float@margin=7": {
+   "margin": 7
+  },
+  "float@margin=14": {
+   "margin": 14
+  },
+  "saaplan@hazard=0.5": {
+   "hazard": 0.5
+  },
+  "saaplan@hazard=1.0": {
+   "hazard": 1.0
+  },
+  "saaplan@hazard=2.0": {
+   "hazard": 2.0
+  },
+  "detmpc@lookahead=120": {
+   "lookahead": 120
+  },
+  "detmpc@lookahead=240": {
+   "lookahead": 240
+  },
+  "detmpc@lookahead=360": {
+   "lookahead": 360
+  },
+  "saampc@sigma=0.15": {
+   "sigma": 0.15
+  },
+  "saampc@sigma=0.3": {
+   "sigma": 0.3
+  },
+  "saampc@sigma=0.5": {
+   "sigma": 0.5
+  },
+  "ablation@hazard=0.0": {
+   "hazard": 0.0
+  },
+  "ablation@hazard=0.5": {
+   "hazard": 0.5
+  },
+  "ablation@hazard=1.0": {
+   "hazard": 1.0
+  },
+  "carp@hazard=0.0": {
+   "hazard": 0.0
+  },
+  "carp@hazard=0.5": {
+   "hazard": 0.5
+  },
+  "carp@hazard=1.0": {
+   "hazard": 1.0
+  }
+ },
+ "grid": {
+  "practice": [
+   {
+    "window": 14
+   },
+   {
+    "window": 28
+   },
+   {
+    "window": 56
+   }
+  ],
+  "buffer": [
+   {
+    "buffer_days": 14
+   },
+   {
+    "buffer_days": 28
+   },
+   {
+    "buffer_days": 42
+   }
+  ],
+  "float": [
+   {
+    "margin": 0
+   },
+   {
+    "margin": 7
+   },
+   {
+    "margin": 14
+   }
+  ],
+  "saaplan": [
+   {
+    "hazard": 0.5
+   },
+   {
+    "hazard": 1.0
+   },
+   {
+    "hazard": 2.0
+   }
+  ],
+  "detmpc": [
+   {
+    "lookahead": 120
+   },
+   {
+    "lookahead": 240
+   },
+   {
+    "lookahead": 360
+   }
+  ],
+  "saampc": [
+   {
+    "sigma": 0.15
+   },
+   {
+    "sigma": 0.3
+   },
+   {
+    "sigma": 0.5
+   }
+  ],
+  "ablation": [
+   {
+    "hazard": 0.0
+   },
+   {
+    "hazard": 0.5
+   },
+   {
+    "hazard": 1.0
+   }
+  ],
+  "carp": [
+   {
+    "hazard": 0.0
+   },
+   {
+    "hazard": 0.5
+   },
+   {
+    "hazard": 1.0
+   }
+  ]
+ },
+ "rule": "per method, the configuration with the lowest mean total loss over the tuning pairs (12 J30 probe instances x 5 development episodes x 3 seeds); ties go to the first listed"
+}

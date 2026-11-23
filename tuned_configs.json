@@ -1,0 +1,38 @@
+{
+ "practice": {
+  "window": 3
+ },
+ "buffer": {
+  "buffer_days": 14
+ },
+ "float": {
+  "margin": 35
+ },
+ "saaplan": {
+  "hazard": 0.25
+ },
+ "detmpc": {
+  "lookahead": 240,
+  "ahead": 210,
+  "late_w": 0.25
+ },
+ "saampc": {
+  "sigma": 0.15,
+  "ahead": 119,
+  "late_w": 0.5
+ },
+ "ablation": {
+  "hazard": 1.0,
+  "ahead": 63,
+  "late_w": 0.0,
+  "lead": 7
+ },
+ "carp": {
+  "hazard": 0.5,
+  "ahead": 63,
+  "late_w": 1.0,
+  "lead": 7,
+  "margin": 7
+ },
+ "naive": {}
+}

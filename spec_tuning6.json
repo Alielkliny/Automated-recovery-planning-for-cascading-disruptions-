@@ -1,0 +1,34 @@
+{
+ "methods": [
+  [
+   "detmpc@lookahead=240,ahead=175",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=240,ahead=210",
+   "detmpc"
+  ]
+ ],
+ "cfg": {
+  "detmpc@lookahead=240,ahead=175": {
+   "lookahead": 240,
+   "ahead": 175
+  },
+  "detmpc@lookahead=240,ahead=210": {
+   "lookahead": 240,
+   "ahead": 210
+  }
+ },
+ "grid": {
+  "detmpc": [
+   {
+    "lookahead": 240,
+    "ahead": 175
+   },
+   {
+    "lookahead": 240,
+    "ahead": 210
+   }
+  ]
+ }
+}

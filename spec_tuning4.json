@@ -1,0 +1,264 @@
+{
+ "methods": [
+  "naive",
+  [
+   "buffer@buffer_days=28",
+   "buffer"
+  ],
+  [
+   "practice@window=3",
+   "practice"
+  ],
+  [
+   "practice@window=7",
+   "practice"
+  ],
+  [
+   "practice@window=14",
+   "practice"
+  ],
+  [
+   "float@margin=21",
+   "float"
+  ],
+  [
+   "float@margin=28",
+   "float"
+  ],
+  [
+   "float@margin=35",
+   "float"
+  ],
+  [
+   "saaplan@hazard=0.5",
+   "saaplan"
+  ],
+  [
+   "saaplan@hazard=1.0",
+   "saaplan"
+  ],
+  [
+   "saaplan@hazard=2.0",
+   "saaplan"
+  ],
+  [
+   "detmpc@lookahead=240,ahead=35",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=240,ahead=63",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=240,ahead=91",
+   "detmpc"
+  ],
+  [
+   "saampc@sigma=0.15,ahead=35",
+   "saampc"
+  ],
+  [
+   "saampc@sigma=0.15,ahead=63",
+   "saampc"
+  ],
+  [
+   "saampc@sigma=0.15,ahead=91",
+   "saampc"
+  ],
+  [
+   "ablation@hazard=1.0,ahead=35",
+   "ablation"
+  ],
+  [
+   "ablation@hazard=1.0,ahead=63",
+   "ablation"
+  ],
+  [
+   "ablation@hazard=1.0,ahead=91",
+   "ablation"
+  ],
+  [
+   "carp@hazard=0.5,ahead=35",
+   "carp"
+  ],
+  [
+   "carp@hazard=0.5,ahead=63",
+   "carp"
+  ],
+  [
+   "carp@hazard=0.5,ahead=91",
+   "carp"
+  ]
+ ],
+ "cfg": {
+  "buffer@buffer_days=28": {
+   "buffer_days": 28
+  },
+  "practice@window=3": {
+   "window": 3
+  },
+  "practice@window=7": {
+   "window": 7
+  },
+  "practice@window=14": {
+   "window": 14
+  },
+  "float@margin=21": {
+   "margin": 21
+  },
+  "float@margin=28": {
+   "margin": 28
+  },
+  "float@margin=35": {
+   "margin": 35
+  },
+  "saaplan@hazard=0.5": {
+   "hazard": 0.5
+  },
+  "saaplan@hazard=1.0": {
+   "hazard": 1.0
+  },
+  "saaplan@hazard=2.0": {
+   "hazard": 2.0
+  },
+  "detmpc@lookahead=240,ahead=35": {
+   "lookahead": 240,
+   "ahead": 35
+  },
+  "detmpc@lookahead=240,ahead=63": {
+   "lookahead": 240,
+   "ahead": 63
+  },
+  "detmpc@lookahead=240,ahead=91": {
+   "lookahead": 240,
+   "ahead": 91
+  },
+  "saampc@sigma=0.15,ahead=35": {
+   "sigma": 0.15,
+   "ahead": 35
+  },
+  "saampc@sigma=0.15,ahead=63": {
+   "sigma": 0.15,
+   "ahead": 63
+  },
+  "saampc@sigma=0.15,ahead=91": {
+   "sigma": 0.15,
+   "ahead": 91
+  },
+  "ablation@hazard=1.0,ahead=35": {
+   "hazard": 1.0,
+   "ahead": 35
+  },
+  "ablation@hazard=1.0,ahead=63": {
+   "hazard": 1.0,
+   "ahead": 63
+  },
+  "ablation@hazard=1.0,ahead=91": {
+   "hazard": 1.0,
+   "ahead": 91
+  },
+  "carp@hazard=0.5,ahead=35": {
+   "hazard": 0.5,
+   "ahead": 35
+  },
+  "carp@hazard=0.5,ahead=63": {
+   "hazard": 0.5,
+   "ahead": 63
+  },
+  "carp@hazard=0.5,ahead=91": {
+   "hazard": 0.5,
+   "ahead": 91
+  }
+ },
+ "grid": {
+  "practice": [
+   {
+    "window": 3
+   },
+   {
+    "window": 7
+   },
+   {
+    "window": 14
+   }
+  ],
+  "float": [
+   {
+    "margin": 21
+   },
+   {
+    "margin": 28
+   },
+   {
+    "margin": 35
+   }
+  ],
+  "saaplan": [
+   {
+    "hazard": 0.5
+   },
+   {
+    "hazard": 1.0
+   },
+   {
+    "hazard": 2.0
+   }
+  ],
+  "detmpc": [
+   {
+    "lookahead": 240,
+    "ahead": 35
+   },
+   {
+    "lookahead": 240,
+    "ahead": 63
+   },
+   {
+    "lookahead": 240,
+    "ahead": 91
+   }
+  ],
+  "saampc": [
+   {
+    "sigma": 0.15,
+    "ahead": 35
+   },
+   {
+    "sigma": 0.15,
+    "ahead": 63
+   },
+   {
+    "sigma": 0.15,
+    "ahead": 91
+   }
+  ],
+  "ablation": [
+   {
+    "hazard": 1.0,
+    "ahead": 35
+   },
+   {
+    "hazard": 1.0,
+    "ahead": 63
+   },
+   {
+    "hazard": 1.0,
+    "ahead": 91
+   }
+  ],
+  "carp": [
+   {
+    "hazard": 0.5,
+    "ahead": 35
+   },
+   {
+    "hazard": 0.5,
+    "ahead": 63
+   },
+   {
+    "hazard": 0.5,
+    "ahead": 91
+   }
+  ]
+ }
+}

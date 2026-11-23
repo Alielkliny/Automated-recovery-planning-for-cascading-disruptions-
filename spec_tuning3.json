@@ -1,0 +1,44 @@
+{
+ "methods": [
+  [
+   "practice@window=3",
+   "practice"
+  ],
+  [
+   "float@margin=28",
+   "float"
+  ],
+  [
+   "detmpc@lookahead=360",
+   "detmpc"
+  ]
+ ],
+ "cfg": {
+  "practice@window=3": {
+   "window": 3
+  },
+  "float@margin=28": {
+   "margin": 28
+  },
+  "detmpc@lookahead=360": {
+   "lookahead": 360
+  }
+ },
+ "grid": {
+  "practice": [
+   {
+    "window": 3
+   }
+  ],
+  "float": [
+   {
+    "margin": 28
+   }
+  ],
+  "detmpc": [
+   {
+    "lookahead": 360
+   }
+  ]
+ }
+}

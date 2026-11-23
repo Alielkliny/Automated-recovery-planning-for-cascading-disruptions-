@@ -1,0 +1,149 @@
+{
+ "methods": [
+  "naive",
+  [
+   "practice@window=7",
+   "practice"
+  ],
+  [
+   "practice@window=14",
+   "practice"
+  ],
+  [
+   "practice@window=28",
+   "practice"
+  ],
+  [
+   "float@margin=7",
+   "float"
+  ],
+  [
+   "float@margin=14",
+   "float"
+  ],
+  [
+   "float@margin=21",
+   "float"
+  ],
+  [
+   "detmpc@lookahead=60",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=120",
+   "detmpc"
+  ],
+  [
+   "detmpc@lookahead=240",
+   "detmpc"
+  ],
+  [
+   "saampc@sigma=0.05",
+   "saampc"
+  ],
+  [
+   "saampc@sigma=0.15",
+   "saampc"
+  ],
+  [
+   "saampc@sigma=0.3",
+   "saampc"
+  ],
+  [
+   "ablation@hazard=2.0",
+   "ablation"
+  ]
+ ],
+ "cfg": {
+  "practice@window=7": {
+   "window": 7
+  },
+  "practice@window=14": {
+   "window": 14
+  },
+  "practice@window=28": {
+   "window": 28
+  },
+  "float@margin=7": {
+   "margin": 7
+  },
+  "float@margin=14": {
+   "margin": 14
+  },
+  "float@margin=21": {
+   "margin": 21
+  },
+  "detmpc@lookahead=60": {
+   "lookahead": 60
+  },
+  "detmpc@lookahead=120": {
+   "lookahead": 120
+  },
+  "detmpc@lookahead=240": {
+   "lookahead": 240
+  },
+  "saampc@sigma=0.05": {
+   "sigma": 0.05
+  },
+  "saampc@sigma=0.15": {
+   "sigma": 0.15
+  },
+  "saampc@sigma=0.3": {
+   "sigma": 0.3
+  },
+  "ablation@hazard=2.0": {
+   "hazard": 2.0
+  }
+ },
+ "grid": {
+  "practice": [
+   {
+    "window": 7
+   },
+   {
+    "window": 14
+   },
+   {
+    "window": 28
+   }
+  ],
+  "float": [
+   {
+    "margin": 7
+   },
+   {
+    "margin": 14
+   },
+   {
+    "margin": 21
+   }
+  ],
+  "detmpc": [
+   {
+    "lookahead": 60
+   },
+   {
+    "lookahead": 120
+   },
+   {
+    "lookahead": 240
+   }
+  ],
+  "saampc": [
+   {
+    "sigma": 0.05
+   },
+   {
+    "sigma": 0.15
+   },
+   {
+    "sigma": 0.3
+   }
+  ],
+  "ablation": [
+   {
+    "hazard": 2.0
+   }
+  ]
+ }
+}
